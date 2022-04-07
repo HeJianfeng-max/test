@@ -20,7 +20,7 @@ public class ApplicationConfig {
     @Bean
     public DataSource dataSource() {
         DruidDataSource druidDataSource = new DruidDataSource();
-        druidDataSource.setUsername("root2");
+        druidDataSource.setUsername("root");
         druidDataSource.setPassword("root123");
         druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         druidDataSource.setUrl("jdbc:mysql://192.168.0.102:3306/myDB?characterEncoding=utf8&useSSL=false");
